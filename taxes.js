@@ -67,8 +67,8 @@ function button_clicked()
 
     taxratemath = (taxed / inc);
 
-    totaltax.textContent = taxed;
+    totaltax.textContent = "$" + taxed;
     taxrate.textContent = taxratemath + "%";
-    netincome.textContent = nincome;
-    monthly.textContent = month;
+    netincome.textContent = "$" + nincome;
+    monthly.textContent = "$" + month;
 }

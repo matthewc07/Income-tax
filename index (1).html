@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>Income tax</title>
+        <link rel="stylesheet" href="taxes.css">
+    </head>
+
+    <body>
+        <label for="input1">Enter you annual income</label>
+        <br>
+        <input type="text" id="input1"
+                minlength="1" maxlength="7" value=""/>
+        <br>
+        <button id="submit">Submit</button>
+        <br>
+        <div class="totalfedtaxbox">
+            <br>
+            <h2 id="tftw">Total federal tax</h2>
+            <br>
+            <p id="totalfedtax">0</p>
+        </div>
+
+        <div class="taxedratebox">
+            <br>
+            <h2 id="trw">Effective taxed rate</h2>
+            <br>
+            <p id="taxedrate">0</p>
+        </div>
+
+        <div class="netincomebox">
+            <br>
+            <h2 id="niw">Net annual income</h2>
+            <br>
+            <p id="netincome">0</p>
+        </div>
+
+        <div class="netmonthlyincomebox">
+            <br>
+            <h2 id="miw">Net Monthly Income</h2>
+            <br>
+            <p id="netmonthlyincome">0</p>
+        </div>
+
+    </body>
+    <script src="taxes.js"></script>
+
+</html>

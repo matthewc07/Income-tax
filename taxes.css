@@ -1,0 +1,130 @@
+
+body {
+    background-color: #A3CFA7;
+}
+
+p {
+    color: #FFE194;
+    font-size: x-large;
+}
+
+label {
+    font-size: xx-large;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 150px;
+    margin-left: 790px;
+    color: #FFE194;
+}
+
+button {
+    color: #FFE194;
+    background-color: #FFF1DE;
+    width: 100px;
+    height: 50px;
+    font-size: x-large;
+    font-weight: bold;
+    border: white;
+}
+
+input {
+    display: inline-block;
+    margin-left: 760px;
+    margin-top: 40px;
+    width: 400px;
+    height: 50px;
+    font-size: x-large;
+    color: #FFE194;
+    background-color: #A3CFA7;
+    text-align: center;
+}
+
+#submit {
+    display: inline-block;
+    margin-left: 910px;
+    margin-top: 40px;
+}
+
+.totalfedtaxbox {
+    display: inline-block;
+    margin-left: 220px;
+    margin-top: 20px;
+    color: #FFE194;
+}
+
+#tftw {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: xx-large;
+}
+
+#totalfedtax {
+    display: inline-block;
+    border: 2px solid #FFF1DE;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+}
+
+.taxedratebox {
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: #FFE194;
+}
+
+#trw {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: xx-large;
+}
+
+#taxedrate {
+    display: inline-block;
+    border: 2px solid #FFF1DE;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+}
+
+.netincomebox {
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: #FFE194;
+}
+
+#niw {
+    display: inline-block;
+    margin-left: 23px;
+    font-size: xx-large;
+}
+
+#netincome {
+    display: inline-block;
+    border: 2px solid #FFF1DE;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+}
+
+.netmonthlyincomebox {
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: #FFE194;
+}
+
+#miw {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: xx-large;
+}
+
+#netmonthlyincome {
+    display: inline-block;
+    border: 2px solid #FFF1DE;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+}
